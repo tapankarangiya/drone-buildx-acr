@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.7.1
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.1
-	github.com/drone-plugins/drone-buildx v1.1.7
+	github.com/drone-plugins/drone-buildx v1.1.11
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
