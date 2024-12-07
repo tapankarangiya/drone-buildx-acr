@@ -1,11 +1,13 @@
 module github.com/drone-plugins/drone-buildx-acr
 
-go 1.20
+go 1.22
+
+toolchain go1.22.0
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.7.1
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.1
-	github.com/drone-plugins/drone-buildx v1.1.19
+	github.com/drone-plugins/drone-buildx v1.1.24
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
