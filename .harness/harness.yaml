@@ -36,7 +36,7 @@ pipeline:
                   identifier: Vet
                   spec:
                     connectorRef: Plugins_Docker_Hub_Connector
-                    image: golang:1.20
+                    image: golang:1.22
                     shell: Sh
                     command: go vet ./...
         variables:
