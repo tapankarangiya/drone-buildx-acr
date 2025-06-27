@@ -1,13 +1,13 @@
 module github.com/drone-plugins/drone-buildx-acr
 
-go 1.23
+go 1.23.0
 
-toolchain go1.22.0
+toolchain go1.24.2
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.7.1
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.1
-	github.com/drone-plugins/drone-buildx v1.3.1
+	github.com/drone-plugins/drone-buildx v1.3.2
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
@@ -29,6 +29,6 @@ require (
 	github.com/urfave/cli v1.22.2 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/net v0.14.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 )
