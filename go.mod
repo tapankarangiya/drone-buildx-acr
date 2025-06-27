@@ -1,6 +1,6 @@
 module github.com/drone-plugins/drone-buildx-acr
 
-go 1.22
+go 1.23
 
 toolchain go1.22.0
 
